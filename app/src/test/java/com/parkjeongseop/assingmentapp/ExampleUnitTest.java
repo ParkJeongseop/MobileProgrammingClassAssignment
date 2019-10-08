@@ -1,4 +1,4 @@
-package com.parkjeongseop.mobileprogramming;
+package com.parkjeongseop.assingmentapp;
 
 import org.junit.Test;
 
