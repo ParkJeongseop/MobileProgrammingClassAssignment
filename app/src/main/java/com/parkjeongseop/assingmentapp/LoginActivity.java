@@ -30,6 +30,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 if(pw.equals(getPassword(id))){
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    intent.putExtra("id", id);
                     startActivity(intent);
                 }else{
                     if(getPassword(id) == null) {

@@ -111,6 +111,7 @@ public class SignUpActivity extends AppCompatActivity {
 
             Toast.makeText(getApplicationContext(), "회원가입되었습니다.", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            intent.putExtra("id", id);
             startActivity(intent);
         } catch(FileNotFoundException e){
             e.printStackTrace();
