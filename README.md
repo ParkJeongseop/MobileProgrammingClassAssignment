@@ -1,7 +1,47 @@
 # MobileProgrammingClassAssignment
 2019-2 Mobile Programming Class Assignment
 
-# 개인 과제 공지
+https://github.com/ParkJeongseop/MobileProgrammingClassAssignment
+
+## 구현내용
+### 로그인 화면
+![로그인화면](./img/Screenshot_1570904104.png)
+![로그인화면](./img/Screenshot_1570904187.png)
+
+로그인 레이아웃 구성, 저장된 데이터를 이용하여 사용자 계정확인후 메인화면으로 이동
+
+### 회원가입 화면
+![회원가입화면](./img/Screenshot_1570904261.png)
+![회원가입화면](./img/Screenshot_1570904312.png)
+
+아이디 중복검사, 패스워드 유효성검사, 약관 동의 여부 등 사용자가 입력한 데이터의 유효성 검사후 회원가입 처리
+아이디를 파일이름으로 하여 패스워드, 이름, 주소, 전화번호를 파일내용으로 개행문자를 기준으로 각각 1,2,3,4번째 줄에 저장.
+
+### 계산기 화면
+![메인화면](./img/Screenshot_1570904327.png)
+![메인화면](./img/Screenshot_1570904353.png)
+![메인화면](./img/Screenshot_1570904356.png)
+
+처음 메인화면 접속 시 회원가입시 입력했던 이름을 출력.
+LinearLayout안에 계산기 버튼을 GridLayout으로 버튼을 위치하여 구성
+이후 계산기 기능을 수행.
+
+## 테스트 환경
+1. 안드로이드 스튜디오 SDK (Tools -> SDK Manager로 확인)
+   - SDK 플랫폼 : Android 10.0(Q), 9.0(Pie), 8.1(Oreo)
+   - Android SDK Build-Tools : 29.0.2, 28.0.3, 28.0.2
+   - Android Emulator
+   - Android SDK Platform-Tools
+   - Android SDK Tools
+   - Intel x86 Emulator Accelerator (HXAM Installer)
+2. JDK-10.0.2 (명령어창(cmd)에서 c:\ java -version으로 확인)
+   - java version "1.8.0_221"
+   - Java(TM) SE Runtime Environment (build 1.8.0_221-b11)
+   - Java HotSpot(TM) 64-Bit Server VM (build 25.221-b11, mixed mode)
+3. 안드로이드 스튜디오 실행 환경
+   - Windows 10 Education, 64비트 운영체제(x64 기반 프로세서)
+
+## 개인 과제 공지
 [배점] 첫번째 화면 3점, 두번째 화면 3점, 세번째 화면 3점, 유저관리 1점
       (만점 10점, 각 화면의 구성+동작으로 평가, 깃허브 가산점)
 
